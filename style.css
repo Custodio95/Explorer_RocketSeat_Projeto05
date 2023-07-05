@@ -1,0 +1,192 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+    background: #BFD7E4;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 465px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #293241;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+
+width: 391px;
+height: 193px;
+margin: 101px auto 32px;
+color: white;
+text-align: center;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 36px;
+
+}
+
+header p {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+form {
+    background: white;
+    min-height: 500px;
+    border-radius: 20px 20px 20px 20px;
+    
+    
+}
+
+fieldset {
+    border: none;
+    
+}
+
+.title-form {
+display: flex;
+width: 750px;
+height: 140px;
+border-radius: 20px 20px 0px 0px;
+background: #F67669;
+font-size: 24px;
+font-family: Staatliches;
+font-style: normal;
+line-height: 34px;
+
+}
+
+.title-form legend {
+    color: #FFF;
+    margin: auto;  
+}
+
+.fieldset-wrapper {
+    padding: 15px 64px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-wrapper-short {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 22px;
+}
+
+.short {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-wrapper-short label, .input-wrapper-long label, .checkbox-wrapper {
+    color: #4E4958;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper-short input, .input-wrapper-long input, .input-wrapper-long textarea{
+    width: 300px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+    padding: 0 24px;
+}
+
+.input-wrapper-long textarea {
+    
+    width: 100%;
+    height: 168px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-wrapper-long {
+    margin-bottom: 3px;
+}
+
+.input-wrapper-long input {
+    width: 100%;
+}
+
+
+.fieldset-wrapper legend {
+    color: #253B51;
+    font-size: 24px;
+    font-family: Staatliches;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: #E6E6F0 1px solid;
+    margin-bottom: 30px;
+
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+.checkbox-wrapper label {
+    margin-left: 8px;
+}
+
+.input-wrapper-short label span {
+color: #C1BCCC;
+font-size: 12px;
+line-height: 20px;
+
+}
+
+.min-short {
+display: flex;
+gap: 10px;
+margin-left: 10px;
+}
+
+.min-short input {
+    width: 140px;
+}
+
+.form-buttons {
+display: flex;
+padding: 15px 40px;
+justify-content: center;
+align-items: center;
+}
+
+.button {
+width: 622px;
+height: 51px;
+border: none;
+border-radius: 8px;
+background: #F67669;
+color: #FFF;
+font-size: 20px;
+font-family: Staatliches;
+line-height: 26px;
+}
+
+.button:hover{
+    background: #97443b;
+}
+
